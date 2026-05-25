@@ -10,7 +10,6 @@ NEVER modifies fraud_score. NEVER creates investigator alerts.
 Creates its own DB session — safe to run in a thread pool after the request session closes.
 All exceptions are caught — failure here must never affect scoring responses.
 """
-from __future__ import annotations
 
 import hashlib
 import json

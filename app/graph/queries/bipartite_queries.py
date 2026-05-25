@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Cypher queries for bipartite core detection (mule network pattern).
 Many senders → few receivers with high density = mule aggregator.

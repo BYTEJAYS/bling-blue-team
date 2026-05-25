@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Nightly APScheduler job — computes 35 graph features per account and writes to Redis.
 Runs at 01:00 IST (19:30 UTC previous day) to be ready for morning transactions.

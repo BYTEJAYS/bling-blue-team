@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Gate 4: Cash Mule Sink Detector
 Pattern: young account receives large inflow → withdraws >80% via ATM → digital silence.

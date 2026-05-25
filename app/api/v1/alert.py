@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 GET /api/v1/alerts/{alert_id}
 Returns the full evidence package for a specific alert.

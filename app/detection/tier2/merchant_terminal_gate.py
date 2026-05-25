@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Gate 5: Merchant Terminal Anomaly Gate
 Detects fake merchants, POS cash-out channels, and terminal aggregation fraud.

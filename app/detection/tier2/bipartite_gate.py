@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Gate 3: Bipartite Core Gate
 Many senders → few receivers with high density (>0.7) = mule aggregator network.

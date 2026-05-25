@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Gate 2: Abandoned Sink Gate
 Account received burst of funds, retained >80%, then went dormant 30+ days.

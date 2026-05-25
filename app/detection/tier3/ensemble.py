@@ -7,7 +7,6 @@ CRITICAL: scale_pos_weight=99 — never train without it (1% fraud dataset).
 CRITICAL: eval_metric='aucpr' — not 'auc' (imbalanced data).
 CRITICAL: warm start only for online updates — never full retrain.
 """
-from __future__ import annotations
 import os
 import numpy as np
 import structlog

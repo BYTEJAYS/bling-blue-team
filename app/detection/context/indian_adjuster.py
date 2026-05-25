@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Indian Context Adjuster.
 Applied AFTER raw Tier 3 score, BEFORE threshold comparison.

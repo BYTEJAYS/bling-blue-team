@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Blockchain evidence sealing client.
 Posts immutable evidence hash to the configured chain endpoint.

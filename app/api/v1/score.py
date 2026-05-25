@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 POST /api/v1/score
 Called by Graph Engine teammate after each transaction settles.

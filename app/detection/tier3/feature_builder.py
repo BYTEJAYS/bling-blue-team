@@ -4,7 +4,6 @@ Assembles up to 87 features from Redis (pre-computed) + PostgreSQL (real-time).
 Returns a dict of feature_name -> float. Never makes scoring decisions.
 Missing features return float('nan') — XGBoost handles NaN natively.
 """
-from __future__ import annotations
 import math
 from datetime import datetime, timezone
 from sqlalchemy.orm import Session

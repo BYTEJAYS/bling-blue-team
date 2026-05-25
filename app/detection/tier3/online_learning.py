@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 River FTRL online learning — warm-start incremental weight updates from investigator feedback.
 NEVER retrain from scratch on each feedback event; warm start only.

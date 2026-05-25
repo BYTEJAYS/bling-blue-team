@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 FINnet 2.0 STR (Suspicious Transaction Report) draft generator.
 Produces machine-readable + human-readable STR structure for investigators.

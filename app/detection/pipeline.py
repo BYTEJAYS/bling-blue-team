@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Main detection pipeline orchestrator.
 Tier 1 → Tier 2 → Tier 3 → action + evidence.

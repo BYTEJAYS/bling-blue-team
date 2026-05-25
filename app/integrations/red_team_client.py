@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Red Team notification client.
 Fires on confirmed_fraud=True feedback so Red Team can add the pattern to attack corpus.

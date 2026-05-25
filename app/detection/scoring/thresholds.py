@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Score-to-action threshold mapping.
 Thresholds are configurable via env vars — not hardcoded here.

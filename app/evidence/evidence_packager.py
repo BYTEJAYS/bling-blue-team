@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Assembles the full evidence package returned by GET /api/v1/alerts/{alert_id}.
 Combines: FraudScore SHAP, Alert trail_data, STR draft.

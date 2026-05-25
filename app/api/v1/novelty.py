@@ -10,7 +10,6 @@ Endpoints:
   GET  /api/v1/novelty/stats          — queue summary stats
   PATCH /api/v1/novelty/{id}/review   — mark a finding as reviewed
 """
-from __future__ import annotations
 
 from datetime import datetime, timezone
 

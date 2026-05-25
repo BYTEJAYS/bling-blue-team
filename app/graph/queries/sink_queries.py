@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Cypher queries for abandoned sink detection.
 Uses pre-computed nightly attributes — no traversal at query time.

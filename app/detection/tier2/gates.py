@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Tier 2 gate orchestrator.
 Runs all 5 gates in order. First gate to fire returns immediately.

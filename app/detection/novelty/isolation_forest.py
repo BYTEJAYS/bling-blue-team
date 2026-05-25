@@ -9,7 +9,6 @@ Callers decide what to do with that score; this module only computes it.
 
 Loaded once at startup as a module-level singleton. Thread-safe.
 """
-from __future__ import annotations
 
 from pathlib import Path
 from typing import Optional

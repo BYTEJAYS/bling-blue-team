@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Legitimacy filters for the cycle gate.
 

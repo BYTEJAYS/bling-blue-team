@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Celery async task — fund trail reconstruction.
 NEVER call this synchronously — trail takes 5-15 minutes on large graphs.

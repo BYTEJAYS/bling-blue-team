@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Investigator Dashboard notification client.
 Pushes new HIGH_RISK alerts to the investigator's inbox via webhook.

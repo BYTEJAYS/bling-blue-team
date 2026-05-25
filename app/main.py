@@ -8,7 +8,7 @@ from slowapi.errors import RateLimitExceeded
 
 from app.core.config import settings
 from app.core.security import limiter
-from app.api.v1 import health, score, alert, feedback, novelty
+from app.api.v1 import health, score, alert, feedback, novelty, analyze_graph
 
 logger = structlog.get_logger()
 
@@ -51,6 +51,7 @@ app.include_router(score.router, tags=["detection"])
 app.include_router(alert.router, tags=["investigation"])
 app.include_router(feedback.router, tags=["investigation"])
 app.include_router(novelty.router, tags=["novelty"])
+app.include_router(analyze_graph.router, tags=["graph-analysis"])
 
 
 @app.exception_handler(Exception)

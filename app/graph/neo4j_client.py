@@ -2,7 +2,6 @@
 Neo4j client — READ ONLY. Blue Team never writes to Neo4j.
 Graph Engine (teammate) owns all writes.
 """
-from __future__ import annotations
 import structlog
 from neo4j import GraphDatabase, Driver
 from app.core.config import settings

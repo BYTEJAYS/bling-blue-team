@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Tier 1: Fast heuristic classification. Target: 5ms.
 Only touches Redis. Never queries Neo4j or PostgreSQL.

@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Gate 1: Cycle Gate
 Detects round-trip paths (Account A → ... → Account A) in the transaction graph.

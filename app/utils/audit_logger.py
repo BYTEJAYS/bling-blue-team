@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Immutable audit logger. Every scoring decision must be recorded here.
 If audit write fails, the caller should propagate the error — no silent skips.
